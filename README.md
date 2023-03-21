@@ -39,6 +39,7 @@ for n_iterations in range(n_iterations):
     for i in range(n_agents):
         # Change agents[i] coordinate randomly
         agents[i].move(x_min, y_min, x_max, y_max)
+        agents[i].eat()
 
 # Calculate the Euclidean distance between (x0, y0) and (x1, y1)
 # Set x0 and y0 to equal 0, x1 to equal 3, and y1 to equal 4
